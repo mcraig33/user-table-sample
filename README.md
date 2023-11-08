@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Description
+
+A sample React project using the following layout and API
+
+[layout](https://wireframe.cc/16qNOD)\
+[api](https://reqres.in/)
+
 ## Available Scripts
 
 In the project directory, you can run:
