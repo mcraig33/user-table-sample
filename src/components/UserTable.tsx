@@ -13,12 +13,8 @@ function UserTable(props: {users: IUser[], error: string}) {
             {error && <p>{error}</p>}
             <table className="user-table">
                 <tr>
-                    <th>
-                        <td>Name</td>
-                    </th>
-                    <th>
-                        <td>Email</td>
-                    </th>
+                    <th>Name</th>
+                    <th>Email</th>
                 </tr>
             {users && users.map((user: IUser) => (
                 <UserRow user={user}></UserRow>
