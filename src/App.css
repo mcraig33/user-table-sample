@@ -2,37 +2,75 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-bottom: 100px;
+  margin-top: 60px;
+  font-weight: normal;
+  font-size: 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table, td{
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img{
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.user-table{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  width: 600px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-table td{
+  text-align: left;
+  padding-left: 20px;
+}
+
+.user-avatar-image{
+  width: 40px;
+}
+
+.menu-container{
+  width: 600px;
+  margin: auto;
+  width: 50%;
+  align: left;
+  margin-bottom: 100px;
+}
+.menu{
+  list-style: none;
+
+}
+.menu li{
+  width: 100px;
+  border: 1px solid red;
+}
+
+.pagination{
+  width: 600px;
+  margin: auto;
+  width: 50%;
+  align: left;
+  margin-top: 100px;
+  text-align: right;
+}
+
+.user-name{
+  width: 75%;
+  float: right;
+}
+
+.home-button{
+  float:right;
+  margin-top: -80px;
+}
+
+.button-container{
+  float: right;
+  padding-left: 20px;
 }
