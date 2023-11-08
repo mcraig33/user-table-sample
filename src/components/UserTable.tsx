@@ -4,13 +4,12 @@ import IUser from "../types/IUser";
 import UserRow from "./UserRow";
 
 
-function UserTable(props: {users: IUser[], error: string}) {
+function UserTable(props: {users: IUser[]}) {
 
-    const{ users, error } = props;
+    const{ users } = props;
 
     return(
         <Fragment>
-            {error && <p>{error}</p>}
             <table className="user-table">
                 <tr>
                     <th>Name</th>

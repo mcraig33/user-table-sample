@@ -7,7 +7,7 @@ h1 {
   font-weight: normal;
   font-size: 20px;
   text-align: center;
-  padding-left: 70px;
+  padding-left: 120px;
 }
 
 table,th, td{
@@ -79,4 +79,9 @@ img{
 .button-container{
   float: right;
   padding-left: 20px;
+}
+
+.error-message{
+  color:red;
+  text-align: center;
 }

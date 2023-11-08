@@ -8,7 +8,6 @@ import axios from "axios";
 function UserPage(){
 
     const [page, setPage] = useState(1);
-    const [totalPages, setTotalPages] = useState();
     const [userData, setUserData] = useState<IUserData>();
     const [error, setError] = useState("");
   
@@ -48,9 +47,10 @@ function UserPage(){
     return(
         <Fragment>
             <h1>All Users</h1>
+            {error && <p className="error-message">{error}</p>}
             {userData && (
                 <Fragment>
-                    <UserTable users={userData.data} error={error}></UserTable>
+                    <UserTable users={userData.data}></UserTable>
                     <UserPagination nextClick={handleNextClick} prevClick={handlePrevClick} total={userData.total} per_page={userData.per_page} page={page}></UserPagination>
                 </Fragment>
             )}
